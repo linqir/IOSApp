@@ -11,15 +11,26 @@
 目录结构
 IOSApp
   ——Common		//存放工程通用的类
+
   ——LDCache		//存放工程缓冲管理类
+	
   ——Model		//存放model数据结构	
+	
   ——Networking		//存放工程网络相关
+	
      ——LDNetworking.h		//网络基础类，封装AFNetworking
+		 
      ——NetworkStatusCode.h	//定义一些网络状态码
+		 
      ——Server.h			//服务器地址
+		 
      ——ServerConnecting.h	//服务器请求的协议/借口	
+		 
   ——Resource		//资源文件，如声音等
+	
   ——thirdSDK		//一些无法通过pod加入的第三方库
+	
   ——ViewController	//ViewController
+	
 
 
